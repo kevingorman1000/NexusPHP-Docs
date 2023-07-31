@@ -32,7 +32,10 @@ nav:
     - 'Relationships and Eloquent ORM': 'Models\relationships-and-eloquent-orm.md'
   - Database:
     - 'Configuration': 'Database\configuration.md'
+    - 'Database Class': 'Database\database.md'
     - 'Query Builder': 'Database\query-builder.md'
+    - 'Batch Builder': 'Database\batch-builder.md'
+    - 'Transactions': 'Database\Transactions.md'
     - 'Migrations and Seeders': 'Database\migrations-and-seeders.md'
   - Forms and Validation:
     - 'Form Handling': 'Forms and Validation\form-handling.md'
@@ -76,8 +79,16 @@ nav:
   - Glossary:
     - 'Definitions of Key Terms': 'Glossary\definitions-of-key-terms.md'
 
-theme: material
+theme: 
+  name: material
 
 plugins:
 - git-revision-date
 
+extra_javascript:
+  - vendor/js/highlight/highlight.js
+  - vendor/js/highlight/languages/php.min.js
+  - vendor/js/init.js
+
+extra_css:
+  - vendor/css/highlight/styles/stackoverflow-light.min.css

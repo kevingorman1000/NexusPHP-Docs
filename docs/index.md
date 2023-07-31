@@ -1,6 +1,6 @@
 # Welcome to NexusPHP Framework
 
-![NexusPHP Logo](img/logo.png)
+![NexusPHP Logo](vendor/img/logo.png)
 
 ## Overview
 
