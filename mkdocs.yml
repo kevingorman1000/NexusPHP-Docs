@@ -1,0 +1,83 @@
+site_name: Nexus Framework
+
+nav:
+  - Getting Started:
+    - 'Installation': 'Getting Started\installation.md'
+    - 'Configuration': 'Getting Started\configuration.md'
+    - 'Directory Structure': 'Getting Started\directory-structure.md'
+    - 'Hello World Example': 'Getting Started\hello-world-example.md'
+  - Architecture:
+    - 'MVC Pattern': 'Architecture\mvc-pattern.md'
+    - 'Request Lifecycle': 'Architecture\request-lifecycle.md'
+    - 'Service Container': 'Architecture\service-container.md'
+    - 'Middleware': 'Architecture\middleware.md'
+  - Routing:
+    - 'Basic Routing': 'Routing\basic-routing.md'
+    - 'Route Parameters': 'Routing\route-parameters.md'
+    - 'Named Routes': 'Routing\named-routes.md'
+    - 'Route Groups': 'Routing\route-groups.md'
+    - 'Route Middleware': 'Routing\route-middleware.md'
+  - Controllers:
+    - 'Creating Controllers': 'Controllers\creating-controllers.md'
+    - 'Controller Methods': 'Controllers\controller-methods.md'
+    - 'Dependency Injection in Controllers': 'Controllers\dependency-injection-in-controllers.md'
+  - Views:
+    - 'Blade Templating Engine': 'Views\blade-templating-engine.md'
+    - 'Creating Views': 'Views\creating-views.md'
+    - 'Passing Data to Views': 'Views\passing-data-to-views.md'
+    - 'Template Inheritance and Layouts': 'Views\template-inheritance-and-layouts.md'
+  - Models:
+    - 'Creating Models': 'Models\creating-models.md'
+    - 'Database Interaction': 'Models\database-interaction.md'
+    - 'Relationships and Eloquent ORM': 'Models\relationships-and-eloquent-orm.md'
+  - Database:
+    - 'Configuration': 'Database\configuration.md'
+    - 'Query Builder': 'Database\query-builder.md'
+    - 'Migrations and Seeders': 'Database\migrations-and-seeders.md'
+  - Forms and Validation:
+    - 'Form Handling': 'Forms and Validation\form-handling.md'
+    - 'Form Validation': 'Forms and Validation\form-validation.md'
+  - Authentication and Authorization:
+    - 'User Authentication': 'Authentication and Authorization\user-authentication.md'
+    - 'User Registration and Password Reset': 'Authentication and Authorization\user-registration-and-password-reset.md'
+    - 'Roles and Permissions': 'Authentication and Authorization\roles-and-permissions.md'
+  - Error Handling:
+    - 'Custom Error Pages': 'Error Handling\custom-error-pages.md'
+    - 'Handling Exceptions': 'Error Handling\handling-exceptions.md'
+  - Caching:
+    - 'Data Caching': 'Caching\data-caching.md'
+    - 'View Caching': 'Caching\view-caching.md'
+  - File Uploads and Storage:
+    - 'Handling File Uploads': 'File Uploads and Storage\handling-file-uploads.md'
+    - 'File Storage and Retrieval': 'File Uploads and Storage\file-storage-and-retrieval.md'
+  - Security:
+    - 'SQL Injection Prevention': 'Security\sql-injection-prevention.md'
+    - 'Cross-Site Scripting Prevention': 'Security\cross-site-scripting-prevention.md'
+    - 'CSRF Protection': 'Security\csrf-protection.md'
+  - Internationalization (i18n):
+    - 'Language Files': 'Internationalization (i18n)\language-files.md'
+    - 'Translations': 'Internationalization (i18n)\translations.md'
+  - API Development:
+    - 'Building RESTful APIs': 'API Development\building-restful-apis.md'
+    - 'API Authentication': 'API Development\api-authentication.md'
+  - Testing:
+    - 'Unit Testing': 'Testing\unit-testing.md'
+    - 'Integration Testing': 'Testing\integration-testing.md'
+  - Deployment:
+    - 'Server Requirements': 'Deployment\server-requirements.md'
+    - 'Configuring Production Environment': 'Deployment\configuring-production-environment.md'
+  - Community and Support:
+    - 'Contributing Guidelines': 'Community and Support\contributing-guidelines.md'
+    - 'Code of Conduct': 'Community and Support\code-of-conduct.md'
+    - 'Bug Reports and Feature Requests': 'Community and Support\bug-reports-and-feature-requests.md'
+    - 'Community Resources': 'Community and Support\community-resources.md'
+  - Frequently Asked Questions (FAQ):
+    - 'Common Questions and Solutions': 'Frequently Asked Questions (FAQ)\common-questions-and-solutions.md'
+  - Glossary:
+    - 'Definitions of Key Terms': 'Glossary\definitions-of-key-terms.md'
+
+theme: material
+
+plugins:
+- git-revision-date
+
